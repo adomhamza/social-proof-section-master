@@ -1,3 +1,116 @@
-h1{
-    color: darkmagenta;
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+body {
+  background-image: url("/images/bg-pattern-top-desktop.svg"),
+    url("/images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right 100px;
+  display: flex;
+  font-family: "Spartan";
+  font-size: 15px;
+  height: 100%vh;
+  margin-left: 100px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 149px;
+
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.sub-header {
+  color: hsl(303, 10%, 53%);
+  margin-top: 16px;
+}
+img{
+    border-radius: 50%;
+    width: 46px;
+    height: 43px;
+    margin-left: 28px;
+    
+}
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    height: 234px;
+    width: 373px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile-box2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  height: 234px;
+  width: 357px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 16px;
+
+
+}
+
+.profile-box3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  height: 234px;
+  width: 357px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 16px;
+
+
+}
+.profile-name{
+  color: #fff;
+}
+
+.box{
+  display: flex;
+
+}
+
+.ratings{
+  display: flex;
+  border: 2px solid #000;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.profile-status{
+   color: aqua;
+  
+}
+
+.testimonials{
+    
+    color:  hsl(0, 0%, 100%);
+    margin-left: 28px;
+    margin-top: 18px;
+    height: 101px;
+    width: 338px;
+    font-size: 13px;
+    align-self: flex-start;
+    line-height: 1.5;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    flex-wrap: wrap;
+    margin-top: -41px;
+    margin-left: 80px;
+    
 }
