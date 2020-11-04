@@ -182,12 +182,12 @@ body {
   margin-bottom: 16px;
   background-color: #502050;
   border-radius: 5px;
-  height: 191px;
-  width: 286px;
+  height: 200px;
+  width: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
+  margin-top: 155px;
   padding: 28px;
 }
 
@@ -202,12 +202,12 @@ body {
   margin-bottom: 16px;
   background-color: #502050;
   border-radius: 5px;
-  height: 191px;
-  width: 286px;
+  height: 200px;
+  width: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 40px;
+  margin-top: 165px;
   margin-left: 24px;
   padding: 28px;
 }
@@ -223,13 +223,13 @@ body {
   margin-bottom: 16px;
   background-color: #502050;
   border-radius: 5px;
-  height: 191px;
-  width: 286px;
+  height: 200px;
+  width: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 60px;
-  margin-left: 134px;
+  margin-top: 180px;
+  margin-left: 24px;
   padding: 28px;
 }
 
